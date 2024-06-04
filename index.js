@@ -73,17 +73,17 @@ function makeSound(key) {
 
     switch (key) {
         case "p":
-            var piano = new Audio ("sounds/mixkit-cartoon-failure-piano-473.wav"); 
+            var piano = new Audio ("Sounds/mixkit-cartoon-failure-piano-473.wav"); 
         piano.play();
             break;
         
         case "d":
-            var drum = new Audio ("sounds/mixkit-deep-horror-drum-556.wav"); 
+            var drum = new Audio ("Sounds/mixkit-deep-horror-drum-556.wav"); 
         drum.play();    
             break; 
 
         case "g":
-            var guitar = new Audio ("sounds/mixkit-cool-guitar-riff-2321.wav"); 
+            var guitar = new Audio ("Sounds/mixkit-cool-guitar-riff-2321.wav"); 
         guitar.play();    
             break; 
 
