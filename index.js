@@ -9,7 +9,7 @@ refreshBtn.addEventListener("click", handleClick);
 // Dice one
 var randomNumber1 = Math.floor(Math.random() * 6) + 1 ; 
 
-var randomDiceImage = "dice_" + randomNumber1 + ".png"; 
+var randomDiceImage = "dice-" + randomNumber1 + ".png"; 
 
 var randomImageSource = "images/" + randomDiceImage;
 
@@ -21,7 +21,7 @@ image1.setAttribute("src", randomImageSource);
 // Dice two 
 var randomNumber2 = Math.floor(Math.random() * 6) + 1; 
 
-var randomDiceImage2 = "dice_" + randomNumber2 + ".png"; 
+var randomDiceImage2 = "dice-" + randomNumber2 + ".png"; 
 
 var randomImageSource2 = "images/" + randomDiceImage2; 
 
